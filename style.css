@@ -1,0 +1,100 @@
+
+
+.marcos1{
+position: relative;  text-align: justify;  width:85%; left: 4%; top: 2%; padding-left: 3%; padding-right: 3%; font-family: textonormal; color: #fff; font-size: 10px; height: 34%;  overflow: auto; text-align: justify;
+}
+
+.marcos2{
+position: relative;  text-align: justify;  width:85%; left: 4%; top: 2%; padding-left: 3%; padding-right: 3%; font-family: textonormal; color: #fff; font-size: 10px; height: 44%;  overflow: auto; text-align: justify;
+}
+
+.marcos3{
+position: relative;  text-align: justify;  width: 85%; left: 4%; top: 3%; padding-left: 3%; padding-right: 3%; font-family: textonormal; color: #fff; font-size: 10px; height: 44%;  overflow: auto; text-align: justify;
+
+}
+
+.marcos4{
+position: relative;  text-align: justify;  width:80%; left: 6%; top: 5%; padding-left: 3%; padding-right: 3%; font-family: textonormal; color: #fff; font-size: 10px; height: 44%;  overflow: auto; text-align: justify;
+}
+
+.marcos5{
+position: relative;  text-align: justify;  width:80%; left: 6%; top: -5%; padding-left: 3%; padding-right: 3%; font-family: textonormal; color: #000; font-size: 10px; height: 80%;  overflow: auto; text-align: justify;
+}
+
+.marcos6{
+position: relative;  text-align: justify;  width:80%; left: 6%; top: 6%; padding-left: 3%; padding-right: 3%; font-family: textonormal; color: #FFF; font-size: 10px; height: 80%;  overflow: auto; text-align: justify;
+}
+
+.marcos7{
+ position: relative;  text-align: justify;  width: 85%; left: 4%; top: 7%; padding-left: 3%; padding-right: 3%; font-family: textonormal; color: #fff; font-size: 10px; height: 45%;  overflow: auto; text-align: justify;   	  
+}
+
+.marcos8{
+position: relative;  text-align: justify;  width:85%; left: 4%; top: 2%; padding-left: 3%; padding-right: 3%; font-family: textonormal; color: #fff; font-size: 10px; height: 44%;  overflow: auto; text-align: justify;
+}
+
+.marcos9{
+ position: relative;  text-align: justify;  width: 85%; left: 4%; top: 7%; padding-left: 3%; padding-right: 3%; font-family: textonormal; color: #fff; font-size: 10px; height: 45%;  overflow: auto; text-align: justify;	
+}
+
+.marcos10{
+position: relative;  text-align: justify;  width: 85%; left: 4%; top: 3%; padding-left: 3%; padding-right: 3%; font-family: textonormal; color: #fff; font-size: 10px; height: 44%;  overflow: auto; text-align: justify;
+}
+
+.marcos11{
+position: relative;  text-align: justify;  width:85%; left: 4%; top: 2%; padding-left: 3%; padding-right: 3%; font-family: textonormal; color: #fff; font-size: 10px; height: 34%;  overflow: auto; text-align: justify;
+}
+
+
+.marcos12{
+position: relative;  text-align: justify;  width:80%; left: 6%; top: 5%; padding-left: 3%; padding-right: 3%; font-family: textonormal; color: #fff; font-size: 10px; height: 44%;  overflow: auto; text-align: justify; z-index:6;
+}
+
+
+.marcos13{
+position: relative;  text-align: justify;  width:80%; left: 6%; top: -5%; padding-left: 3%; padding-right: 3%; font-family: textonormal; color: #000; font-size: 10px; height: 80%;  overflow: auto; text-align: justify;
+}
+
+.marcos14{
+position: relative;  text-align: justify;  width:80%; left: 6%; top: 6%; padding-left: 3%; padding-right: 3%; font-family: textonormal; color: #FFF; font-size: 10px; height: 80%;  overflow: auto; text-align: justify;
+}
+
+.globo1Emp{
+	position: absolute;text-align: center;width: 115%;overflow: hidden;z-index: 50; border-radius: 80px; border: solid #009ee2 2px; background: #FFFFFF; color: #009ee2; font-family: textonormal; font-size: 12px; padding-top: 10px; padding-left: 15px; padding-right: 15px; padding-bottom: 10px; text-align:center; font-style: italic; top:-20% 
+}
+
+.globo2Emp{
+position: absolute;text-align: center;width:7%;height: 12%;overflow: hidden;left: -10%;top: 40%;z-index: 48; border-radius: 80px; border: solid #009ee2 2px; background: #FFFFFF; color: #009ee2  
+}
+
+.globo2Preg{
+position: absolute;text-align: center;width:7%;height: 12%;overflow: hidden;left: -10%;top: 40%;z-index: 48; border-radius: 80px; border: solid #B82521 2px; background: #FFFFFF; color: #B82521  
+}
+
+.globo2Est{
+position: absolute;text-align: center;width:7%;height: 12%;overflow: hidden;left: -10%;top: 40%;z-index: 48; border-radius: 80px; border: solid #076531  2px; background: #FFFFFF; color: #B82521  
+}
+
+.titus1{
+
+	position: relative;  text-align: center;  width: 80%; left: 10%; text-underline-position: 1px; line-height: 23px; font-family: titulos; color: #B82521; font-size: 35px; height: 10%; top: -16%; 
+}
+
+.linkb{
+	text-decoration: none; color: #fff;
+}
+
+.boton{
+	height: 80px;
+	width: 70px;
+	position: relative; 
+	float:right; 
+	margin-right: 15px;
+	;overflow: hidden;
+	
+}
+.botontx{
+	font-size: 15px;
+		
+}
+

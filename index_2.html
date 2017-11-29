@@ -1,0 +1,116 @@
+<!doctype html>
+<html>
+<head> <link rel="stylesheet" type="text/css" href="style.css">
+<meta charset="utf-8">
+<title>multimedia</title>
+
+<script src="jquery.js"></script>
+<script>
+	function zoomfr(cual){
+ 
+if(cual=="1"){
+document.body.style.zoom=1.5;
+}
+if(cual=="2"){document.body.style.zoom=0.0}
+}
+
+
+	
+	
+$(document).ready(function() {
+
+	
+
+var ca0 = ($('#ca0')?  $('#ca0') : $('#ca0'));
+	
+var ca1 = ($('#ca1')?  $('#ca1') : $('#ca1'));
+	
+var ca2 = ($('#ca2')?  $('#ca2') : $('#ca2'));
+	
+var ca3 = ($('#ca3')?  $('#ca3') : $('#ca3'));
+	
+/*$(ca0).animate({opacity: '1'},1000,function(){});
+$(ca2).animate({opacity: '1'},2000,function(){});
+$(ca1).animate({opacity: '1'},2000,function(){});
+	*/
+$(ca0).animate({opacity:'1'}, 500);
+
+	setTimeout(function() {
+$(ca1).animate({opacity:'1'}, 1000);
+	$(ca2).animate({opacity:'1'}, 1000);
+$(ca3).animate({opacity:'1'}, 1000);
+	}, 500);
+	
+	});
+
+	
+	
+	
+	</script>
+</head>
+<style>
+	@font-face {
+    font-family: "titulos";
+    font-style: normal;
+    font-weight: normal;
+    src: local("?"), url("high_sans_serif_7.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "textonormal";
+    font-style: normal;
+    font-weight: normal;
+    src: local("?"), url("ClementePDai_Regular.ttf") format("truetype");
+}
+
+.inter1 {
+    opacity: 1;
+    
+}
+
+.inter1:hover {
+    opacity: 0.8;
+    
+}
+</style>
+
+
+<body style="margin: 0px; padding: 0px;">
+<img id="ca0" src="proyecto/Intro/0iS-01.png" style="position: absolute;  height: 100%; width: 100%; opacity: 0 "/>
+
+<img id="ca1" src="proyecto/Intro/0iS-03.png" style="position: absolute;  width: 30%; position: absolute; top: 15%; left:55%; opacity: 0"/>
+<img id="ca2"  src="proyecto/Intro/0iS-02.png" style="position: absolute;  width: 35%; height: 80%; position: absolute; top: 10%; left:15%; opacity: 0"/>
+<div id="ca3"  style="opacity: 0; position: absolute;  width: 35%; height: 80%; position: absolute; top: 12%; left:15%;">
+<div style="position: relative;  text-align: center;  width: 100%; font-family: titulos; color: #BD1622; font-size: 35px; height: 10%;"> Bienvenidos a TRIC!   </div>
+  <div style="position: relative;  text-align: justify;  width: 86%; left: 5%; top: 6%;  font-family: textonormal; color: #000; font-size: 10px; height: 60%; overflow: auto; padding: 5px;">Has llegado al lugar donde los resultados de tus investigaciones o creación intelectual se convierten en productos innovadores.
+ 
+En esta ruta encontrarás información acerca de la Gestión de la propiedad intelectual y  los procesos de transferencia.
+ 
+Si eres estudiante, investigador (a), docente, empresario (a),  funcionario y quieres saber cuáles son las ayudas que ofrece la <a href="http://viceinvestigaciones.univalle.edu.co/acerca-de-la-otri">Oficina de Transferencia de Resultados de Investigación (OTRI)</a> para ti, te invitamos a que conozcas algunos aspectos del mundo de la propiedad intelectual.
+ 
+A continuación encontrarás información sobre:
+ <br>
+<br>●   	Definiciones, conceptos y recursos sobre propiedad intelectual
+<br><br>●   	Guías de asistencia para el diligenciamiento de formatos
+<br><br>●   	Enlaces de  entidades con las que tenemos alianzas estratégicas
+<br><br>●   	Posibilidades para desarrollos conjuntos de proyectos de I+D
+<br><br>●   	Oportunidades que ofrece la Universidad, por medio de su OTRI 
+ <br>
+
+<br>
+ Selecciona la ruta que deseas explorar y amplía tus conocimientos siguiendo los pasos que te sugiere la multimedia.
+ 
+  </div>
+  <div style="position: relative;  text-align: center;  width: 100%; height: 15%; overflow: hidden; top: 9%; ">
+  <img  src="proyecto/Intro/0iBA-1.png" style="position: absolute;  width: 5%; left: 25%; display: none;"/>
+  <a href="index_3.html"><img class="inter1"  src="proyecto/Intro/0iBA-2.png" style="position: absolute;  width: 4.5%; left: 48%; "/></a>
+  </div>
+  </div>
+  
+
+<a href="index_2_1.html"></a>
+
+</body>
+</html>
+
+

@@ -1,0 +1,92 @@
+<!doctype html>
+<html>
+<head> <link rel="stylesheet" type="text/css" href="style.css">
+<meta charset="utf-8">
+<title>multimedia</title>
+
+<script src="jquery.js"></script>
+<script>
+		
+$(document).ready(function() {
+
+	
+
+var ca0 = ($('#ca0')?  $('#ca0') : $('#ca0'));
+	
+var ca1 = ($('#ca1')?  $('#ca1') : $('#ca1'));
+	
+var ca2 = ($('#ca2')?  $('#ca2') : $('#ca2'));
+	
+var ca3 = ($('#ca3')?  $('#ca3') : $('#ca3'));
+	
+/*$(ca0).animate({opacity: '1'},1000,function(){});
+$(ca2).animate({opacity: '1'},2000,function(){});
+$(ca1).animate({opacity: '1'},2000,function(){});
+	*/
+$(ca0).animate({opacity:'1'}, 500);
+
+	setTimeout(function() {
+$(ca1).animate({opacity:'1'}, 1000);}, 500);
+	
+	setTimeout(function() {
+$(ca2).animate({opacity:'1'}, 1000);
+$(ca3).animate({opacity:'1'}, 1000);
+	
+	}, 1000);
+
+	
+	});
+
+	
+	
+	
+	</script>
+</head>
+<style>
+	@font-face {
+    font-family: "titulos";
+    font-style: normal;
+    font-weight: normal;
+    src: local("?"), url("high_sans_serif_7.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "textonormal";
+    font-style: normal;
+    font-weight: normal;
+    src: local("?"), url("ClementePDai_Regular.ttf") format("truetype");
+}
+
+.inter1 {
+    opacity: 1;
+    
+}
+
+.inter1:hover {
+    opacity: 0.8;
+    
+}
+</style>
+
+
+<body style="margin: 0px; padding: 0px;">
+<img id="ca0" src="proyecto/Intro/0iS-01.png" style="position: absolute;  height: 100%; width: 100%; opacity: 0 "/>
+
+<img id="ca1"  src="proyecto/Intro/intro_personajes_juntos.png" style="position: absolute;  width: 30%; position: absolute; top: 15%; left:55%; opacity: 0"/>
+<img id="ca2"  src="proyecto/Intro/0iS-02.png" style="position: absolute;  width: 35%; height: 80%; position: absolute; top: 10%; left:15%;"/>
+<div id="ca3"  style="position: absolute;  width: 35%; height: 80%; position: absolute; top: 12%; left:15%;">
+<div style="position: relative;  text-align: center;  width: 100%; font-family: titulos; color: #BD1622; font-size: 45px; height: 10%;"> Bienvenidos a TRIC!   </div>
+  <div style="position: relative;  text-align: left;  width: 86%; left: 7%; top: 6%;  font-family: textonormal; color: #000; font-size: 15px; height: 75%; overflow: auto; ">texto largo
+  </div>
+  <div style="position: relative;  text-align: center;  width: 100%; height: 15%; overflow: hidden; ">
+  <a href="index_2.html"><img class="inter1"  src="proyecto/Intro/0iBA-1.png" style="position: absolute;  width: 5%; left: 45%;;"/></a>
+  <a href="index_3.html"><img class="inter1"  src="proyecto/Intro/0iBA-2.png" style="position: absolute;  width: 5%; left: 55%; "/></a>
+  </div>
+  </div>
+  
+
+
+</body>
+</html>
+
+

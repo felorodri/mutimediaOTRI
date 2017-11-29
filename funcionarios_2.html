@@ -1,0 +1,262 @@
+<!doctype html>
+
+<html>
+
+<head> <link rel="stylesheet" type="text/css" href="style.css">
+
+<meta charset="utf-8">
+
+<title>multimedia</title>
+
+<!-- Eliminar al montar en servidor web -->
+<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+
+</head>
+
+<style>
+
+	@font-face {
+
+    font-family: "titulos";
+
+    font-style: normal;
+
+    font-weight: normal;
+
+    src: local("?"), url("high_sans_serif_7.ttf") format("truetype");
+
+}
+
+
+
+@font-face {
+
+    font-family: "textonormal";
+
+    font-style: normal;
+
+    font-weight: normal;
+
+    src: local("?"), url("ClementePDai_Regular.ttf") format("truetype");
+
+}
+
+
+
+.inter1 {   z-index:100; }
+
+
+
+.inter1:hover {    }
+
+
+
+
+
+
+
+	</style>
+
+
+
+
+
+
+
+<body style="margin: 0px; padding: 0px; overflow: hidden">
+
+<img src="proyecto/Funcionarios/1%20-%20Presentación%20Funcionarios/1PF-01.png" style="position: absolute;  height: 100%; width: 100%; z-index: 0;"/>
+
+<img src="proyecto/Funcionarios/1%20-%20Presentación%20Funcionarios/1PF-02.png" style="position: absolute;  height: 100%; width: 100%; z-index: 3; "/>
+
+<img id="cual"   src="proyecto/Funcionarios/funcionario%20gestos/Funcionario-01.png" style="z-index: 2; width:20%; height: 90%; position: absolute; top: 15%; left:78%;"/>
+
+ 
+
+ 
+
+ 
+
+<img   src="proyecto/Docentes/1/1PD-03.png" style="  height: 15.5%; position: absolute; top: 0%; left:1%;"/>
+
+<img   src="proyecto/Funcionarios/1%20-%20Presentación%20Funcionarios/1PF-04.png" style=" height: 5%; position: absolute; top: 6%; left:10.5%;"/>
+
+
+
+
+
+
+
+
+
+<img  src="proyecto/Funcionarios/1%20-%20Presentación%20Funcionarios/1PF-06.png" style="position: absolute;  width: 40%; height: 90%; position: absolute; top: 5%; left:29%;"/>
+
+<div  style="  width: 40%; height: 90%; position: absolute; top: 19%; left:29%; z-index:4">
+
+<div style="position: relative;  text-align: center;  width: 100%; font-family: titulos; color: #fff; font-size: 35px; height: 10%; "> Propiedad intelectual</div>
+
+  <div class="marcos10">La importancia de la Propiedad Intelectual radica en proteger los derechos de los inventores o creadores, reconocer su contribución a la ciencia y a la sociedad; de esta manera se recompensa la creatividad y el esfuerzo humano, que estimulan el progreso de la humanidad. La propiedad intelectual se divide en dos categorías: 
+
+<br><br>
+
+  <!-- <table width="100%">
+  <tr>
+  <td width="10%%">
+  </td>
+  <td width="80%" style="text-align: -webkit-center">
+  
+    <div style="position: relative;  text-align: center;  width: 175px; height: 20%; z-index: 20; top:4%; left: 10px; ">
+
+   <div class="boton"><a class="linkb" href="funcionarios_1b.html"><img class="inter1" onmouseover="this.src='proyecto/f3_a.png';" onmouseout="this.src='proyecto/f3.png';" src="proyecto/f3.png" style="width: 100%;"></a></div>
+
+  <div class="boton"><a class="linkb" href="funcionarios_1a.html"><img class="inter1" src="proyecto/f4.png" onmouseover="this.src='proyecto/f4_a.png';" onmouseout="this.src='proyecto/f4.png';" style="width: 100%;"></a></div>
+
+  </div>
+
+  </td>
+ <td width="10%">
+  </td>
+  </tr>
+  </table> -->
+
+  <table width="100%">
+      <tbody><tr>
+      <td width="10%">
+      </td>
+      <td width="80%" style="text-align: -webkit-center">
+
+        <div style="height:100%; width:49%; position:relative; float: left; text-align: -webkit-center">
+          
+          <div class="boton" style="height: 100%; width: 100% !important; margin: 0px">
+            <a class="linkb" href="funcionarios_1b.html">
+              <img class="inter1" onmouseover="displayDerechos()" onmouseout="" src="proyecto/f3_b.png" style="width: 100%;">
+            </a>
+          </div>
+
+          <div style="height: 100%; width: 100%% !important; margin: 0px">
+            <a class="linkb" href="funcionarios_2a.html" id="derechosMorales" style="display: none;">
+              <img class="inter1" onmouseover="this.src='proyecto/f4_c.png';" onmouseout="this.src='proyecto/f4_c.png';" src="proyecto/f4_c.png" style="width: 100%;">
+            </a>
+          </div>
+
+          <div style="height: 100%; width: 100%%; margin: 0px">
+            <a class="linkb" href="funcionarios_2b.html" id="derechosPatrimoniales" style="display: none;">
+              <img class="inter1" onmouseover="this.src='proyecto/f4_d.png';" onmouseout="this.src='proyecto/f4_d.png';" src="proyecto/f4_d.png" style="width: 100%;">
+            </a>
+          </div>
+
+        </div>
+
+        <div style="height:100%; width:49%; position:relative; float: right; text-align: -webkit-center">
+          
+          <div class="boton" style="height: 100%; width: 100%; margin: 0px">
+            <a class="linkb" href="#">
+              <img class="inter1" src="proyecto/f4_b.png" onmouseover="displayCategorias()" onmouseout="" style="width: 100%;">
+            </a>
+          </div>
+
+          <div style="height: 100%; width: 100%% !important; margin: 0px">
+            <!-- <a class="linkb" href="funcionarios_1b.html" style="display: none;"> -->
+            <a class="linkb" href="funcionarios_1b.html" id="derechosAutor" style="display: none;">
+              <img class="inter1" onmouseover="this.src='proyecto/f3_c.png';" onmouseout="this.src='proyecto/f3_c.png';" src="proyecto/f3_c.png" style="width: 100%;">
+            </a>
+          </div>
+
+          <div style="height: 100%; width: 100%% !important; margin: 0px">
+            <!-- <a class="linkb" href="funcionarios_1b.html" style="display: none;"> -->
+            <a class="linkb" href="funcionarios_1a.html" id="propiedadIndustrial" style="display: none;">
+              <img class="inter1" onmouseover="this.src='proyecto/f3_d.png';" onmouseout="this.src='proyecto/f3_d.png';" src="proyecto/f3_d.png" style="width: 100%;">
+            </a>
+          </div>
+
+        </div>
+    <!-- <div style="position: relative;  text-align: center;  width: 175px; height: 20%; z-index: 20; top:4%; left:0px; ">
+        </div> -->
+      </td>
+     <td width="10%">
+      </td>
+      </tr>
+      </tbody></table>
+
+
+
+
+  </div>
+  
+  
+  
+  
+  <div style="position: relative;  text-align: center;  width: 100%; height: 20%; overflow: hidden; z-index: 20; top:6%">
+
+  <a href="funcionarios.html">  
+
+ <img class="inter1"  src="proyecto/Docentes/3/3 docentes botones activos/3DBA-08.png" style="width:13%; margin-top: 3%"></a>
+
+  <a href="funcionarios.html">  
+    <img class="inter1" src="proyecto/e.png" style="width: 15%; cursor:pointer; margin-top: 3%; margin-left: 1%" id="estatuto">
+  </a>
+ 
+
+  </div>
+
+ </div>
+
+<div style="position: absolute;text-align: center;width: 35%;height: 40%;left: 1.5%;top: 55%;z-index: 50;"> <img src="proyecto/MENU/botones_DESACTIVADOS/BD-19.png" style="position: absolute;width: 18%;height: 31%;position: absolute;top: 11%;left: 0%;cursor: no-drop"  
+
+  > <a href="empresarios.html"><img id="men2" src="proyecto/MENU/botones_inactivos/BI-02.png" style="position: absolute;width: 18%;height: 32%;position: absolute;top: 0%;left: 15%;"
+
+  onMouseOver="this.src='proyecto/MENU/botones_activos/BA-08.png';" onMouseOut="this.src='proyecto/MENU/botones_inactivos/BI-02.png';"></a> <a href="docentes.html"> <img id="men3" src="proyecto/MENU/botones_inactivos/BI-03.png" style="position: absolute;width: 22.5%;height: 41%;position: absolute;top: 6.4%;left: 29.4%;29.1%;"
+
+  onMouseOver="this.src='proyecto/MENU/botones_activos/BA-09.png';" onMouseOut="this.src='proyecto/MENU/botones_inactivos/BI-03.png'; "
+
+  ></a> <a href="estudiantes.html"> <img id="men4" src="proyecto/MENU/botones_inactivos/BI-04.png" style="position: absolute;width: 22%;height: 41%;position: absolute;top: 29.3%;left: 43.2%;" 
+
+  onMouseOver="this.src='proyecto/MENU/botones_activos/BA-10.png';" onMouseOut="this.src='proyecto/MENU/botones_inactivos/BI-04.png'; "
+
+  
+
+    ></a> <a href="funcionarios.html"> <img id="men4" src="proyecto/MENU/botones_inactivos/BI-05.png" style="width: 36%;height: 72%;position: absolute;top: 32%;left: 4%;"
+
+ onMouseOver="this.src='proyecto/MENU/botones_activos/BA-11.png';" onMouseOut="this.src='proyecto/MENU/botones_inactivos/BI-05.png';"></a> <a href="preguntas.html"> <img id="mena" src="proyecto/MENU/botones_inactivos/BI-06.png" style="width: 10%;height: 14%;position: absolute;top: 72%;left: 41%;"
+
+ onMouseOver="this.src='proyecto/MENU/botones_activos/BA-12.png';
+
+ document.getElementById('mena').style.width='38%';"  
+
+ onMouseOut="this.src='proyecto/MENU/botones_inactivos/BI-06.png';
+
+ document.getElementById('mena').style.width='10%';"  ></a></div>
+
+<div style="position:  absolute;width: 19%;height: 25%;left: 60%;top: 2%;">
+
+  <div style="position: absolute;text-align: center;width: 100%;overflow: hidden;z-index: 50; border-radius: 80px; border: solid #878787 2px; background: #FFFFFF; color: #b3b3b3; font-family: textonormal; font-size: 12px; padding-top: 10px; padding-left: 15px; padding-right: 15px; padding-bottom: 10px; text-align:center; font-style: italic">Es importante que conozcas algunos conceptos básicos sobre propiedad intelectual.</div>
+
+
+
+<div style="position: absolute;text-align: center;width:7%;height: 12%;overflow: hidden;left: 122%;top: 50%;z-index: 48; border-radius: 80px; border: solid #878787 2px; background: #FFFFFF; color: #B82521  ">
+
+
+
+</div></div>
+
+</div>	
+
+
+<script type="text/javascript">
+  function displayCategorias(){
+    $("#derechosAutor").fadeToggle( "slow", "linear" );
+    $("#propiedadIndustrial").fadeToggle( "slow", "linear" );
+  }
+  function displayDerechos(){
+    $("#derechosMorales").fadeToggle( "slow", "linear" );
+    $("#derechosPatrimoniales").fadeToggle( "slow", "linear" );
+  }
+</script>
+ 
+
+
+
+</body>
+
+</html>
+
